@@ -22,8 +22,13 @@ object AirportsInUsaProblem {
     val sc =new SparkContext(conf)
 
     val airports = sc.textFile("in/airports.text")
-    val airportsInUsa = airports.filter(line => line.split(Utils.COMMA_DELIMITER)(3) == "\"United State\"")
-
+    val airportsInUsa = airports.filter {
+      _.split(Utils.COMMA_DELIMITER)(3) == "\"United States\""
+    }
+//    (line => {
+//      return line.split(Utils.COMMA_DELIMITER)(3) == "\"United States\""
+//    })
+//
     val airportsNameAndCityNames = airportsInUsa.map(line => {
       val splits = line.split(Utils.COMMA_DELIMITER)
       splits(1) + ", " + splits(2)
