@@ -15,8 +15,8 @@ object UnionLogsSolution {
 
     val aggregatedLogLines = julyFirstLogs.union(augustFirstLogs)
 
-    val cleanLogLines = aggregatedLogLines.filter(line => isNotHeader(line))
-
+    val cleanLogLines = aggregatedLogLines.filter(isNotHeader(_))
+    cleanLogLines.collect().foreach{println}
     val sample = cleanLogLines.sample(withReplacement = true, fraction = 0.1)
 
     sample.saveAsTextFile("out/sample_nasa_logs.csv")
