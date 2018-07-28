@@ -16,7 +16,9 @@ object AirportsByCountrySolution {
     val countryAndAirportNameAndPair = lines.map(airport => (airport.split(Utils.COMMA_DELIMITER)(3),
                                                              airport.split(Utils.COMMA_DELIMITER)(1)))
 
+    //countryAndAirportNameAndPair.foreach(println)
     val airportsByCountry = countryAndAirportNameAndPair.groupByKey()
+    //airportsByCountry.foreach(println)
 
     for ((country, airportName) <- airportsByCountry.collectAsMap()) println(country + ": " + airportName.toList)
   }
