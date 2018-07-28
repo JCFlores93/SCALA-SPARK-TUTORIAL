@@ -4,7 +4,7 @@ import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.SparkSession
 
 object StackOverFlowSurvey {
-
+//exmaple sparkSQL
   val AGE_MIDPOINT = "age_midpoint"
   val SALARY_MIDPOINT = "salary_midpoint"
   val SALARY_MIDPOINT_BUCKET = "salary_midpoint_bucket"
