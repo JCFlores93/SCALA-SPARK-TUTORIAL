@@ -3,7 +3,7 @@ package com.sparkTutorial.pairRdd.join
 import org.apache.spark.{SparkConf, SparkContext}
 
 object JoinOperations {
-
+//joins
     def main(args: Array[String]) {
 
         val conf = new SparkConf().setAppName("JoinOperations").setMaster("local[1]")
