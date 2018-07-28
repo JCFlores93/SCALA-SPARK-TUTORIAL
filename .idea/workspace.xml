@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce651b7-19a5-4181-8fc9-bf8fad7a1217" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/join/JoinOperations.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/join/JoinOperations.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/accumulator/StackOverFlowSurvey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/accumulator/StackOverFlowSurvey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/accumulator/StackOverFlowSurveyFollowUp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/accumulator/StackOverFlowSurveyFollowUp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/broadcast/UkMakerSpaces.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/broadcast/UkMakerSpaces.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,11 +23,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JoinOperations.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/join/JoinOperations.scala">
+      <file leaf-file-name="StackOverFlowSurvey.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/accumulator/StackOverFlowSurvey.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="56">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackOverFlowSurveyFollowUp.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/accumulator/StackOverFlowSurveyFollowUp.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UkMakerSpaces.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/broadcast/UkMakerSpaces.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Option.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.11/55fcd4c282604a1a57f7310f116b159b7bcdbbde/scala-library-2.11.11-sources.jar!/scala/Option.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="332" column="17" selection-start-line="332" selection-start-column="17" selection-end-line="332" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SparkContext.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.2.0/55ba31300f7d31fd5aad78c947479fde28a932ea/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/SparkContext.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="1422" column="6" selection-start-line="1422" selection-start-column="6" selection-end-line="1422" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -387,6 +424,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/groupbykey/GroupByKeyVsReduceByKey.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/sort/SortedWordCountProblem.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/join/JoinOperations.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/broadcast/UkMakerSpaces.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/accumulator/StackOverFlowSurveyFollowUp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/accumulator/StackOverFlowSurvey.scala" />
       </list>
     </option>
   </component>
@@ -433,23 +473,6 @@
             <path>
               <item name="scala-spark-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala-spark-tutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala-spark-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala-spark-tutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="age_address_left_out_join.text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala-spark-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala-spark-tutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="age_address_right_out_join.text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala-spark-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala-spark-tutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -480,7 +503,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="sparkTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="pairRdd" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scala-spark-tutorial" type="b2602c69:ProjectViewProjectNode" />
@@ -489,8 +512,18 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="sparkTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="pairRdd" type="462c0819:PsiDirectoryNode" />
-              <item name="join" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="accumulator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala-spark-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala-spark-tutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkTutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="broadcast" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -519,29 +552,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JoinOperations">
-    <configuration name="AirportsByCountrySolution" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.sparkTutorial.pairRdd.groupbykey.AirportsByCountrySolution" />
-      <module name="scala-spark-tutorial_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sparkTutorial.pairRdd.groupbykey.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="AverageHousePriceSolution" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.sparkTutorial.pairRdd.sort.AverageHousePriceSolution" />
-      <module name="scala-spark-tutorial_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sparkTutorial.pairRdd.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.UkMakerSpaces">
     <configuration name="JoinOperations" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.sparkTutorial.pairRdd.join.JoinOperations" />
       <module name="scala-spark-tutorial_main" />
@@ -571,6 +582,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sparkTutorial.pairRdd.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StackOverFlowSurveyFollowUp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparkTutorial.advanced.accumulator.StackOverFlowSurveyFollowUp" />
+      <module name="scala-spark-tutorial_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparkTutorial.advanced.accumulator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="UkMakerSpaces" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparkTutorial.advanced.broadcast.UkMakerSpaces" />
+      <module name="scala-spark-tutorial_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparkTutorial.advanced.broadcast.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -617,19 +650,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.AirportsByCountrySolution" />
-      <item itemvalue="Application.AverageHousePriceSolution" />
       <item itemvalue="Application.SortedWordCountProblem" />
       <item itemvalue="Application.SortedWordCountSolution" />
       <item itemvalue="Application.JoinOperations" />
+      <item itemvalue="Application.StackOverFlowSurveyFollowUp" />
+      <item itemvalue="Application.UkMakerSpaces" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UkMakerSpaces" />
+        <item itemvalue="Application.StackOverFlowSurveyFollowUp" />
         <item itemvalue="Application.JoinOperations" />
         <item itemvalue="Application.SortedWordCountProblem" />
         <item itemvalue="Application.SortedWordCountSolution" />
-        <item itemvalue="Application.AverageHousePriceSolution" />
-        <item itemvalue="Application.AirportsByCountrySolution" />
       </list>
     </recent_temporary>
   </component>
@@ -649,12 +682,12 @@
       <workItem from="1532401814824" duration="2420000" />
       <workItem from="1532657568053" duration="592000" />
       <workItem from="1532756882618" duration="5000" />
-      <workItem from="1532786161524" duration="10576000" />
+      <workItem from="1532786161524" duration="11354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22375000" />
+    <option name="totallyTimeSpent" value="23153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -679,10 +712,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34903046" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34903046" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24739583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19270833" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32965517" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Learn" order="2" />
@@ -748,25 +781,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.2.0/55ba31300f7d31fd5aad78c947479fde28a932ea/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/SparkConf.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="53" column="84" selection-start-line="53" selection-start-column="84" selection-end-line="53" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/airports_in_usa_1.text/_SUCCESS">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/airports_in_usa_1.text/.part-00001.crc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/airports_in_usa_1.text/.part-00000.crc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/airports_in_usa_1.text/._SUCCESS.crc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/airports_in_usa_1.text/part-00000">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1056,8 +1070,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/join/JoinOperations.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="168">
+          <caret line="6" column="2" selection-start-line="5" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.2.0/55ba31300f7d31fd5aad78c947479fde28a932ea/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="1422" column="6" selection-start-line="1422" selection-start-column="6" selection-end-line="1422" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.11/55fcd4c282604a1a57f7310f116b159b7bcdbbde/scala-library-2.11.11-sources.jar!/scala/Option.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="332" column="17" selection-start-line="332" selection-start-column="17" selection-end-line="332" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/broadcast/UkMakerSpaces.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/accumulator/StackOverFlowSurveyFollowUp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/advanced/accumulator/StackOverFlowSurvey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -7,7 +7,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 import scala.io.Source
 
 object UkMakerSpaces {
-
+//read only
   def main(args: Array[String]) {
     Logger.getLogger("org").setLevel(Level.ERROR)
     val conf = new SparkConf().setAppName("UkMakerSpaces").setMaster("local[1]")

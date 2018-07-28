@@ -5,7 +5,7 @@ import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 
 object StackOverFlowSurvey {
-
+//accumulator
   def main(args: Array[String]) {
     Logger.getLogger("org").setLevel(Level.ERROR)
     val conf = new SparkConf().setAppName("StackOverFlowSurvey").setMaster("local[1]")
