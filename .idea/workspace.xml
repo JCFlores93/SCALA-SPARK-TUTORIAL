@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce651b7-19a5-4181-8fc9-bf8fad7a1217" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/groupbykey/AirportsByCountrySolution.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/groupbykey/AirportsByCountrySolution.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/groupbykey/GroupByKeyVsReduceByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/groupbykey/GroupByKeyVsReduceByKey.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -48,20 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupByKeyVsReduceByKey.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GroupByKeyVsReduceByKey.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/groupbykey/GroupByKeyVsReduceByKey.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="207">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirportsByCountrySolution.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AirportsByCountrySolution.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/groupbykey/AirportsByCountrySolution.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="162">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -446,6 +446,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/mapValues/AirportsUppercaseProblem.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/aggregation/reducebykey/WordCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/groupbykey/AirportsByCountrySolution.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/groupbykey/GroupByKeyVsReduceByKey.scala" />
       </list>
     </option>
   </component>
@@ -696,12 +697,12 @@
       <workItem from="1532401814824" duration="2420000" />
       <workItem from="1532657568053" duration="592000" />
       <workItem from="1532756882618" duration="5000" />
-      <workItem from="1532786161524" duration="6823000" />
+      <workItem from="1532786161524" duration="6989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18622000" />
+    <option name="totallyTimeSpent" value="18788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -726,10 +727,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37534627" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37534627" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19596355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19596355" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32965517" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Learn" order="2" />
@@ -1109,17 +1110,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/groupbykey/GroupByKeyVsReduceByKey.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/groupbykey/AirportsByCountrySolution.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="162">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/groupbykey/AirportsByCountrySolution.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/pairRdd/groupbykey/GroupByKeyVsReduceByKey.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="207">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -15,7 +15,7 @@ object GroupByKeyVsReduceByKey {
 
     val wordCountsWithReduceByKey = wordsPairRdd.reduceByKey((x, y) => x + y).collect()
     println("wordCountsWithReduceByKey: " + wordCountsWithReduceByKey.toList)
-
+    //It works better
     val wordCountsWithGroupByKey = wordsPairRdd.groupByKey().mapValues(intIterable => intIterable.size).collect()
     println("wordCountsWithGroupByKey: " + wordCountsWithGroupByKey.toList)
   }
