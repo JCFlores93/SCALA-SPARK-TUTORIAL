@@ -12,8 +12,9 @@ object WordCount {
 
     val lines = sc.textFile("in/word_count.text")
     val wordRdd = lines.flatMap(line => line.split(" "))
+    //wordRdd.foreach(println)
     val wordPairRdd = wordRdd.map(word => (word, 1))
-
+    wordPairRdd.foreach(println)
     val wordCounts = wordPairRdd.reduceByKey((x, y) => x + y)
     for ((word, count) <- wordCounts.collect()) println(word + " : " + count)
   }
