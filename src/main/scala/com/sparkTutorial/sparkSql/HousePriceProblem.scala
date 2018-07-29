@@ -1,5 +1,8 @@
 package com.sparkTutorial.sparkSql
 
+import org.apache.log4j.{Level, Logger}
+import org.apache.spark.sql.SparkSession
+
 
 object HousePriceProblem {
 
@@ -37,4 +40,37 @@ object HousePriceProblem {
         |................|.................|
         |................|.................|
          */
+        val AGE_MIDPOINT = "age_midpoint"
+        val SALARY_MIDPOINT = "salary_midpoint"
+        val SALARY_MIDPOINT_BUCKET = "salary_midpoint_bucket"
+
+        def main(args: Array[String]): Unit = {
+                Logger.getLogger("org").setLevel(Level.ERROR)
+                val session = SparkSession.builder().appName("HousePriceProblem").master("local[1]").getOrCreate()
+
+                val dataFrameReader = session.read
+
+                val responses = dataFrameReader
+                  .option("header", "true")
+                  .option("inferSchema", value = true)
+                  .csv("in/RealEstate.csv")
+
+                System.out.println("=====Print out schema====")
+                responses.printSchema()
+
+                val responseWithSelectedColumns = responses.select("Location","Price SQ Ft")
+                System.out.println("=== Print the selected columns of the table ===")
+                responseWithSelectedColumns.show()
+
+                System.out.println("=== Print the selected columns of the table ===")
+                val responsesGroupedByLocation = responseWithSelectedColumns
+                  .groupBy("Location")
+                  .avg("Price SQ Ft")
+                  .orderBy("avg(Price SQ Ft)")
+                  .show(100)
+                //group by location
+
+        }
+
+
 }
