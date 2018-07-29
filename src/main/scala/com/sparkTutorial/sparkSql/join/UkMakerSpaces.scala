@@ -6,7 +6,7 @@ import org.apache.spark.sql.{SparkSession, functions}
 object UkMakerSpaces {
 
   def main(args: Array[String]) {
-
+    //SQL Joins
     Logger.getLogger("org").setLevel(Level.ERROR)
 
     val session = SparkSession.builder().appName("UkMakerSpaces").master("local[*]").getOrCreate()
