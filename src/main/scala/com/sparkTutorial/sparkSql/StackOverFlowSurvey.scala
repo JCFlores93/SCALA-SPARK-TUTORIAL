@@ -12,14 +12,14 @@ object StackOverFlowSurvey {
   def main(args: Array[String]) {
 
     Logger.getLogger("org").setLevel(Level.ERROR)
-    val session = SparkSession.builder().appName("StackOverFlowSurvey").master("local[1]").getOrCreate()
+    val session = SparkSession.builder().appName("StackOverFlowSurvey").getOrCreate()
 
     val dataFrameReader = session.read
 
     val responses = dataFrameReader
       .option("header", "true")
       .option("inferSchema", value = true)
-      .csv("in/2016-stack-overflow-survey-responses.csv")
+      .csv("s3n://stackoverflow-analytics-flores/2016-stack-overflow-survey-responses.csv")
 
     System.out.println("=== Print out schema ===")
     responses.printSchema()
